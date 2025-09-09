@@ -3,7 +3,7 @@ function About() {
     <div className="max-w-3xl mx-auto text-center py-16 px-6">
       <div className="w-40 h-40 mx-auto mb-6 overflow-hidden rounded-full shadow-lg">
         <img
-          src={`${process.env.PUBLIC_URL}/headshot.jpg`}
+          src={`${process.env.PUBLIC_URL}/headshotcropped.jpg`}
           alt="Polina Antonenko"
           className="w-full h-full object-cover"
         />
