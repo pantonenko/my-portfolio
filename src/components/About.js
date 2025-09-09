@@ -1,11 +1,13 @@
 function About() {
   return (
     <div className="max-w-3xl mx-auto text-center py-16 px-6">
-      <img
-        src={`${process.env.PUBLIC_URL}/headshot.jpg`}
-        alt="Polina Antonenko"
-        className="w-40 h-40 rounded-full mx-auto shadow-lg mb-6"
-      />
+      <div className="w-40 h-40 mx-auto mb-6 overflow-hidden rounded-full shadow-lg">
+        <img
+          src={`${process.env.PUBLIC_URL}/headshot.jpg`}
+          alt="Polina Antonenko"
+          className="w-full h-full object-cover"
+        />
+    </div>
       <h1 className="text-4xl font-bold text-indigo-700 mb-4">Polina Antonenko</h1>
       <blockquote className="italic text-gray-600 mb-6">
         “Humans are allergic to change. They love to say, ‘We’ve always done it this way.’ I try to
