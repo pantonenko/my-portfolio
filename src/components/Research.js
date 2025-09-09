@@ -9,7 +9,7 @@ function Research() {
 
         <h3 className="text-xl font-semibold mb-3">Research Focus</h3>
         <p className="text-gray-700 leading-relaxed mb-6">
-          This project will estimate the computational and electrical power requirements...
+          This project will estimate the computational and electrical power requirements of EI applications. My goal is to work with with the University of Florida’s experts on EI and explore AI power requirements for the community-relevant application of air quality monitoring.
         </p>
         <img
           src="/research-pic.jpg"
