@@ -11,7 +11,7 @@ function Resume() {
 
         <h3 className="text-xl font-semibold mt-6 mb-3">Highlights</h3>
         <ul className="list-disc pl-6 text-gray-700 space-y-2">
-          <li>USP Research Scholar</li>
+          <li>UF USP/AI Research Scholar (2025-2026)</li>
           <li>Research Intern at UF's SCAN Lab (2023)</li>
           <li>Developer of NiViyni App & Website (2022 – Present)</li>
         </ul>
