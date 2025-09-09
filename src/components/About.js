@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="max-w-3xl mx-auto text-center py-16 px-6">
       <img
-        src="/headshot.jpg"
+        src={`${process.env.PUBLIC_URL}/headshot.jpg`}
         alt="Polina Antonenko"
         className="w-40 h-40 rounded-full mx-auto shadow-lg mb-6"
       />

@@ -3,7 +3,7 @@ function Resume() {
     <div className="max-w-3xl mx-auto py-12 px-6">
       <div className="bg-white shadow-lg rounded-xl p-8">
         <h2 className="text-2xl font-bold text-indigo-700 mb-4">Resume</h2>
-        <a href="/resume.pdf" download>
+        <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download>
           <button className="bg-indigo-600 text-white px-5 py-2 rounded-lg shadow hover:bg-indigo-700 transition">
             Download CV
           </button>
